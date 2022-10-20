@@ -1,0 +1,169 @@
+@font-face{
+	font-family: "outfit-light";
+	src: url('fonts/outfit-light.ttf');
+}
+
+@font-face{
+	font-family: "outfit-regular";
+	src: url('fonts/outfit-regular.ttf');
+}
+
+@font-face{
+	font-family: "outfit-semibold";
+	src: url('fonts/outfit-semibold.ttf');
+}
+
+
+body
+{
+	background-color: hsl(217, 54%, 11%) ;
+	color: hsl(215, 51%, 70%);
+	font-family: outfit-light;
+}
+
+section
+{
+	background-color: hsl(216, 50%, 16%);
+	width: 350px;
+	height: 595px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 15px;
+}
+
+#equilien
+{
+	display: block;
+	position: relative;
+	margin: auto;
+	top: 23px;
+	width: 300px;
+	height: 300px;
+	border-radius: 8px;
+	background-color: hsl(178, 100%, 50%);
+}
+
+#equilibrium
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 7px;
+}
+
+#equilien:hover > #equilibrium
+{
+	opacity: 0.6;
+}
+
+#view
+{
+	position: absolute;
+	bottom: 125px;
+	left: 127px;
+	display: none;
+}
+
+#equilien:hover > #view
+{
+	display: inline;
+}
+
+#title
+{
+	display: block;
+	color: white;
+	font-family: outfit-semibold;
+	margin: 50px 0 20px 25px;
+	font-size: 1.35em;
+	text-decoration: none;
+}
+
+#title:hover
+{
+	color: hsl(178, 100%, 50%);
+}
+
+#description
+{
+	margin: 0 25px 15px 25px;
+	font-size: 1.1em;
+}
+
+#infos
+{
+	margin: 0 25px 20px 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#imageeth
+{
+	width: 12px;
+}
+
+#texteth 
+{
+	display: inline-block;
+	color: hsl(178, 100%, 50%);
+	font-family: outfit-regular;
+	font-size: 1em;
+	position: relative;
+	bottom: 4px;
+	left: 2px;
+}
+
+#imagetime
+{
+	width: 17px;
+	position: relative;
+	right: 5px;
+}
+
+#texttime
+{
+	display: inline-block;
+	position: relative;
+	bottom: 3px;
+	right: 2px;
+}
+
+#line 
+{
+	border: 1px hsl(215, 32%, 27%) solid;
+	margin: 25px;
+	position: relative;
+	bottom: 18px;
+}
+
+footer
+{
+	margin-left: 25px;
+}
+
+#avatar
+{
+	width: 31px;
+	position: relative;
+	bottom: 27px;
+	border: 1px white solid;
+	border-radius: 100%;
+}
+
+#footertext
+{
+	display: inline-block;
+	position: relative;
+	bottom: 37px;
+	left: 10px;
+}
+
+#jules
+{
+	text-decoration: none;
+	color: white;
+}
+
+#jules:hover
+{
+	color: hsl(178, 100%, 50%);
+}
